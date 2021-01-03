@@ -1,0 +1,9 @@
+CREATE TABLE 'weather_report'.'weather_details' (
+  'id' INT NOT NULL AUTO_INCREMENT,
+  'zip_code' VARCHAR(45) NULL,
+  'date' DATE NULL,
+  'weather_temperature' VARCHAR(10) NULL,
+  'climate' VARCHAR(100) NULL,
+  'city' VARCHAR(250) NULL,
+  'state' VARCHAR(150) NULL,
+  PRIMARY KEY ('id'));
